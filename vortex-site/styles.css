@@ -143,3 +143,61 @@ a {
   stroke: #2A2F3A;
   stroke-width: 1.5;
 }
+
+/* Services section */
+.services {
+  padding: 160px 48px;
+  max-width: 900px;
+}
+
+.services h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 64px;
+}
+
+.service-row {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+  border-top: 1px solid #1B1F27;
+}
+
+.service-row:last-child {
+  border-bottom: 1px solid #1B1F27;
+}
+
+.service-number {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  color: #5B8DEF;
+  flex-shrink: 0;
+  width: 32px;
+  padding-top: 4px;
+}
+
+.service-content h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.service-content p {
+  color: #F5F4F1;
+  font-size: 16px;
+  max-width: 560px;
+}
+
+.service-row-featured .service-number {
+  color: #F5F4F1;
+  background-color: #5B8DEF;
+  border-radius: 3px;
+  padding: 2px 6px;
+  width: fit-content;
+}
+
+.service-row-featured .service-content h3 {
+  font-size: 26px;
+}
