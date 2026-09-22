@@ -394,7 +394,6 @@ a {
     gap: 16px;
     text-align: center;
   }
-}
 
   .node-lines {
     display: none;
@@ -407,3 +406,4 @@ a {
   .nav-links a {
     font-size: 13px;
   }
+}
