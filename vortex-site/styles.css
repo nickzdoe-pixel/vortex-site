@@ -231,3 +231,53 @@ a {
 .about-content p:last-child {
   margin-bottom: 0;
 }
+
+/* Work section */
+.work {
+  padding: 160px 48px;
+  max-width: 1100px;
+}
+
+.work h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.work-intro {
+  color: #8B93A7;
+  font-size: 16px;
+  max-width: 600px;
+  margin-bottom: 64px;
+}
+
+.work-grid {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.work-slot {
+  flex: 1;
+  min-width: 240px;
+  border: 1px dashed #2A2F3A;
+  border-radius: 4px;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.work-status {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: #5B8DEF;
+  width: fit-content;
+}
+
+.work-slot h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
