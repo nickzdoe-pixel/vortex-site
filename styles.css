@@ -144,6 +144,7 @@ a {
   stroke-width: 1.5;
 }
 
+
 /* Services section */
 .services {
   padding: 160px 48px;
@@ -359,9 +360,9 @@ a {
     font-size: 28px;
   }
 
-  .hero-visual {
-    width: 100%;
-    height: 240px;
+    .hero-visual {
+    width: 260px;
+    height: 260px;
     position: relative;
   }
 
@@ -395,9 +396,6 @@ a {
     text-align: center;
   }
 
-  .node-lines {
-    display: none;
-  }
 
   .nav-links {
     gap: 16px;
