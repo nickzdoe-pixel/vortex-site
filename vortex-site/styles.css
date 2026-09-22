@@ -201,3 +201,33 @@ a {
 .service-row-featured .service-content h3 {
   font-size: 26px;
 }
+
+/* About section */
+.about {
+  padding: 160px 48px;
+  background-color: #1B1F27;
+}
+
+.about-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+
+.about-content p {
+  color: #F5F4F1;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.about-content p:last-child {
+  margin-bottom: 0;
+}
